@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora de idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verfiicador de aluno e escola</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome do aluno:
+                <input type="name" name="nome" id="textnome">
+            </p>
+        <p>Ano de nascimento:
+            <input type="number" name="textano" id="textano">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="masc"cheked>
+            <label for="masc">Maculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            <input type="button" value="verificar"onclick="verificar()">
+        </p>
+        <p>Escola:
+            <input type="radio"name="escola" id="alpega"checked>
+            <label for="alpega">Alpega</label>
+            <input type="radio"name="escola" id="maka">
+            <label for="maka">Makarenko</label>
+            <input type="radio"name="escola" id="alda">
+            <label for="alda">Alda Lara</label>
+            <input type="radio"name="escola" id="ipps">
+            <label for="ipps">IPPS (bardealândia)</label>
+        </p>
+    </div>
+    <div id="res">
+        Preencha os dados acima para ver o resultado
+        <img id="img" src="" alt="">
+    </div>
+</section>
+<footer>
+    <p>&copy; Jorge da Costa</p>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
